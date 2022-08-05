@@ -1,0 +1,40 @@
+.game{
+    /* display: flex; */
+    padding: 3vw;
+    background-color: yellow;
+    width: min-content;
+}
+body{
+    background-color: lightcoral;
+}
+.container{
+    display:grid;
+    /* min-width:min-content; */
+    grid-template-rows: repeat(3, 4vw);
+    grid-template-columns: repeat(3, 4vw);
+}
+.box{
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 3vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: aqua;
+}
+.br{
+    border-right: 0;
+}
+.bl{
+    border-left: 0;
+}
+.bt{
+    border-top: 0;
+}
+.bb{
+    border-bottom: 0;
+}
